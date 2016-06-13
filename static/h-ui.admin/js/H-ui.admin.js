@@ -39,7 +39,6 @@ function getskincookie(){
 		$("#skin").attr("href",hrefRes);
 	}
 }
-var Cstatus=false;
 function Hui_admin_tab(obj){
 	if($(obj).attr('_href')){
 		
@@ -56,17 +55,16 @@ function Hui_admin_tab(obj){
 				return false;
 			}
 		});
-		if(bStop==false && Cstatus!=true){
+		if(bStop==false ){
 			creatIframe(_href,_titleName);
 			min_titleList();
-			Cstatus=true;
+			
 		}
 		else{
 			show_navLi.removeClass("active").eq(bStopIndex).addClass("active");
 			var iframe_box=topWindow.find("#iframe_box");
 			iframe_box.find(".show_iframe").hide().eq(bStopIndex).show().find("iframe").attr("src",_href);
-			$("#fixedTab").html(_titleName);
-			$("#fixedTab").attr("data-href",_href);
+			
 		}
 	}
 
