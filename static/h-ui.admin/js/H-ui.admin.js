@@ -39,6 +39,7 @@ function getskincookie(){
 		$("#skin").attr("href",hrefRes);
 	}
 }
+var QStop=false;
 function Hui_admin_tab(obj){
 	if($(obj).attr('_href')){
 		
@@ -56,8 +57,15 @@ function Hui_admin_tab(obj){
 			}
 		});
 		if(bStop==false ){
+			if(QStop==true)
+			{
+			removeIframe();
+			}
 			creatIframe(_href,_titleName);
 			min_titleList();
+			
+			QStop=true;
+			
 			
 		}
 		else{
