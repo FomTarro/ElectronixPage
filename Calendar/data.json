@@ -1,0 +1,33 @@
+[
+    {
+      "title":"Kirchoff’s current law, Assignment #1",
+      "start":"08-09-2016",
+      "end": "08-11-2016",
+      "color":"#2980b9",
+      "topic":"Physics",
+      "URL":"http://prod.x-in-y.com/asat2016/aries/index.html"
+  },{
+      "title":"Kirchoff’s current law, Assignment #2",
+      "start":"08-09-2016",
+      "end":"08-09-2016",
+      "color":"#2980b9",
+      "topic":"Physics",
+      "URL":"http://prod.x-in-y.com/asat2016/aries/index.html"
+  },
+  {
+      "title":"Kirchoff’s current law, Assignment #3",
+      "start":"08-15-2016",
+      "end":"08-17-2016",
+      "color":"#2980b9",
+      "topic":"Physics",
+      "URL":"http://prod.x-in-y.com/asat2016/aries/index.html"
+  },
+  {
+      "title":"Kirchoff’s current law, Assignment #4",
+      "start":"08-18-2016",
+      "end":"08-25-2016",
+      "color":"#2980b9",
+      "topic":"Physics",
+      "URL":"http://prod.x-in-y.com/asat2016/aries/index.html"
+  }
+]
